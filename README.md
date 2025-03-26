@@ -1,6 +1,6 @@
 # checkpoint
 
-Here’s the high-level functional test plan for the **Firewall as a Service (FWaaS)** functionality, structured in a table format for clarity.  
+Here’s the high-level functional test plan for the **Firewall as a Service (FWaaS)** functionality.  
 
 ---
 
@@ -29,5 +29,3 @@ Here’s the high-level functional test plan for the **Firewall as a Service (FW
 | **10.1** | **Audit Logging and Compliance** | Generate logs and review stored records. | Logs meet compliance standards and are accessible for audits. |
 
 ---
-
-This table outlines test cases covering **integration, security, scalability, network segmentation, encryption, and compliance** for Perimeter 81’s **Firewall as a Service (FWaaS)**. Let me know if you need any modifications! 🚀
