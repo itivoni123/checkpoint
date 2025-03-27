@@ -23,6 +23,8 @@ Execute the test using pytest:
 pytest test_gmail_login.py
 ```
 ```
+```
+### Issue I was Facing
 I encountered an issue where Google displayed the error: *"Couldn’t sign you in. This browser or app may not be secure."* when trying to log in using Playwright. To troubleshoot, I searched for solutions on Google and YouTube to understand why this error was occurring.  
 
 Through my research, I found that Google detects automation tools like Playwright by checking certain browser flags, such as `--enable-automation` and Blink features. Based on the solutions I found, I modified the browser launch options to bypass automation detection:  
