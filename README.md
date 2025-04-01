@@ -20,9 +20,9 @@ playwright install
 ### Running the Tests
 Execute the test using pytest:
 ```sh
-Change the username and password in conftest.py or run: pytest --username="your_email@gmail.com" --password="your_password"
+Change the username and password in conftest.py: --username="your_email@gmail.com" --password="your_password"
 
-pytest test_gmail_login.py
+To Run the tests: pytest test_gmail_login.py --username="your_email@gmail.com" --password="your_password"
 ```
 ```
 ```
